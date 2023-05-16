@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* 20210915 */
+
+body {
+	/*font: 10pt font-family: "BundesSansWeb",Arial, helvetica, sans-serif; */
+	color: #000;
+   	background: #ffffff;
+   	padding: 0;
+   	margin: 0;
+	border-top: 0px solid #64c3d5;
+   	}
+
+#metanav, #suchblock, #hauptnav, #bereichskennz, .seitennavi, .fusscontainer, #dpma-carousel, #carousel-pause-button, .service div img, .totop, .slick-prev::before, .slick-next::before, #social {display: none;}
+
+#inhalt h1 {font-size: 16pt;}
+#inhalt h2 {font-size: 14pt;}
+#inhalt h3, #inhalt h4, #inhalt h5, #inhalt h6 {font-size: 12pt;}
+
+#inhalt a:link {text-decoration: underline; color: #06c; }
+
+#inhalt .texthauptbereich {padding-left: 15px;}
+#standort p {margin-left: -15px;}
+
+#inhalt .stand {text-align: left;}
+
+.article_img_lin_h, .article_img_rec_h {page-break-inside: avoid;}
+
+.breadcrumb a[href]:after, #ident a[href]:after {
+    content: none
+  }
+
+/* Standard Link-Druckformatierung von Bootstrap deaktivieren */
+  a[href]:after {
+    content: none;
+  }
