@@ -1,0 +1,17 @@
+<html>
+<body>
+hello
+<script>
+function datavNavTo (path) {
+    let ds;
+console.log ('nav');
+     if (location.hash && location.hash.length > 0) {
+	ds = location.hash.toLowerCase().split ('dataset=')[1];
+    }
+ 
+    return `#/${path}?dataSet=${ds??0}`;
+}
+</script>
+<a href="" onclick="this.href=datavNavTo('explore')" >Explore</a>
+</body>
+</html>
